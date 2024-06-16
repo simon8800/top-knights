@@ -16,3 +16,9 @@ Sometimes there is more than one fastest path. Examples of this are shown below.
 2. For every square there is a number of possible moves, choose a data structure that will allow you to work with them. Don’t allow any moves to go off the board.
 3. Decide which search algorithm is best to use for this case. Hint: one of them could be a potentially infinite series.
 5. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square. Output what that full path looks like, e.g.:
+
+## Thoughts
+
+- Does it make sense to make each square a node?
+  - I'm thinking along these lines because a node that was visited should not be visited again
+  - How would I assign a node to another node?
