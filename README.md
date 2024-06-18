@@ -19,7 +19,7 @@ Sometimes there is more than one fastest path. Examples of this are shown below.
 
 ## Final thoughts
 
-I was able to find a picture in one of the TOP discord channels that depicted how to traverse the possible moves from a given position. It was helpful to know that it doesn't matter from which position you take to get to the next position, because the weight of each move is 1. This means that A -> B -> C or A -> D -> C is the same distance to get to C. This works out because we can make those previous squares visited and we won't run into a cyclic situation.
+I was able to find a picture in one of the TOP discord channels that depicted how to traverse the possible moves from a given position. It was helpful to know that it doesn't matter from which position you take to get to the next position, because the weight of each move is 1. This means that A -> B -> C or A -> D -> C is the same distance to get to C. This works out because we can mark those previous squares as visited and we won't run into a cyclic situation.
 
 I also add a mark to all the next positions with the current position so I can backtrack from the end position later on.
 
